@@ -1,0 +1,4 @@
+E:/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Builds/Android/app/.externalNativeBuild/cmake/debug_Debug/x86/CMakeFiles/cpufeatures.dir
+E:/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Builds/Android/app/.externalNativeBuild/cmake/debug_Debug/x86/CMakeFiles/juce_jni.dir
+E:/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Builds/Android/app/.externalNativeBuild/cmake/debug_Debug/x86/CMakeFiles/edit_cache.dir
+E:/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Builds/Android/app/.externalNativeBuild/cmake/debug_Debug/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,25 @@
+Executable : E:\AndroidSDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\Github\CPPGUIAndroidApplication\CPPGUIAndroidApplication\Builds\Android\app
+-BE:\Github\CPPGUIAndroidApplication\CPPGUIAndroidApplication\Builds\Android\app\.externalNativeBuild\cmake\release_Release\armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-23
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\Github\CPPGUIAndroidApplication\CPPGUIAndroidApplication\Builds\Android\app\build\intermediates\cmake\release_\release\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=E:\AndroidSDK\ndk-bundle
+-DCMAKE_C_FLAGS=-fsigned-char
+-DCMAKE_CXX_FLAGS=-fsigned-char -std=c++14
+-DCMAKE_TOOLCHAIN_FILE=E:\AndroidSDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=E:\AndroidSDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_PLATFORM=android-23
+-DANDROID_STL=c++_static
+-DANDROID_CPP_FEATURES=exceptions rtti
+-DANDROID_ARM_MODE=arm
+-DANDROID_ARM_NEON=TRUE
+-DJUCE_BUILD_CONFIGURATION=RELEASE
+-DCMAKE_CXX_FLAGS_RELEASE=-O3
+-DCMAKE_C_FLAGS_RELEASE=-O3
+jvmArgs : 
+

@@ -1,0 +1,4 @@
+E:/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Builds/Android/app/.externalNativeBuild/cmake/debug_Debug/armeabi-v7a/CMakeFiles/cpufeatures.dir
+E:/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Builds/Android/app/.externalNativeBuild/cmake/debug_Debug/armeabi-v7a/CMakeFiles/juce_jni.dir
+E:/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Builds/Android/app/.externalNativeBuild/cmake/debug_Debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+E:/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Builds/Android/app/.externalNativeBuild/cmake/debug_Debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
