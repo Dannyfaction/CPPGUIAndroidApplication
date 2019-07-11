@@ -1,0 +1,18 @@
+# ninja log v5
+1	270	0	CMakeFiles/cpufeatures.dir/E_/AndroidSDK/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o	546c390f9ab6a46
+272	385	0	libcpufeatures.a	cc63e4e2aac2d798
+558	2234	0	CMakeFiles/juce_jni.dir/62645976d8e3964380ba36c233009ce6/JuceLibraryCode/include_juce_cryptography.cpp.o	9a0b601394ef37f
+385	3662	0	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/JuceLibraryCode/include_juce_events.cpp.o	b20e4481f5169ae9
+533	3945	0	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Source/MainComponent.cpp.o	654cf22f0dacb103
+539	4995	0	CMakeFiles/juce_jni.dir/62645976d8e3964380ba36c233009ce6/JuceLibraryCode/include_juce_audio_basics.cpp.o	97cd270a2f69306f
+3947	6626	0	CMakeFiles/juce_jni.dir/62645976d8e3964380ba36c233009ce6/JuceLibraryCode/include_juce_data_structures.cpp.o	6523d4f2312256e3
+2236	6783	0	CMakeFiles/juce_jni.dir/62645976d8e3964380ba36c233009ce6/JuceLibraryCode/include_juce_audio_devices.cpp.o	bf06f1bf550db5c0
+545	7365	0	CMakeFiles/juce_jni.dir/62645976d8e3964380ba36c233009ce6/JuceLibraryCode/include_juce_audio_formats.cpp.o	638a2f8d258c3b37
+4995	8587	0	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Source/Main.cpp.o	be00fe4ed5829bd
+551	11867	0	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/JuceLibraryCode/include_juce_core.cpp.o	f1aa2471546c242d
+6626	13724	0	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/JuceLibraryCode/include_juce_gui_extra.cpp.o	ffcfc559b954d276
+8587	14676	0	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/JuceLibraryCode/include_juce_opengl.cpp.o	a8b5348e3711c8e2
+3663	15030	0	CMakeFiles/juce_jni.dir/62645976d8e3964380ba36c233009ce6/JuceLibraryCode/include_juce_audio_processors.cpp.o	583f8c972dc61f8a
+6783	15149	0	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/JuceLibraryCode/include_juce_graphics.cpp.o	1625ac5bd0f3b7f9
+7366	25348	0	CMakeFiles/juce_jni.dir/a68b9b7ee77fd67c34619ccb1ef907ef/CPPGUIAndroidApplication/JuceLibraryCode/include_juce_gui_basics.cpp.o	d1bc4d1d5677d4ad
+25349	26955	0	../../../../build/intermediates/cmake/debug_/debug/obj/x86/libjuce_jni.so	e8109632dc5a600b
