@@ -26,7 +26,7 @@ void MainComponent::paint (Graphics& g)
 
     g.setFont (Font (16.0f));
     g.setColour (Colours::white);
-    g.drawText ("Hello World!", getLocalBounds(), Justification::centred, true);
+    g.drawText ("Hello OI", getLocalBounds(), Justification::centred, true);
 }
 
 void MainComponent::resized()

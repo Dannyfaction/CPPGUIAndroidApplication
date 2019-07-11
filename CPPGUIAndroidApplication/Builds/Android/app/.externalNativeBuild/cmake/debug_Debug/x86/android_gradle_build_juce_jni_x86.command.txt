@@ -1,8 +1,0 @@
-Executable : E:\AndroidSDK\cmake\3.6.4111459\bin\cmake.exe
-arguments : 
---build
-E:\Github\CPPGUIAndroidApplication\CPPGUIAndroidApplication\Builds\Android\app\.externalNativeBuild\cmake\debug_Debug\x86
---target
-juce_jni
-jvmArgs : 
-

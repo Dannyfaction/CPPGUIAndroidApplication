@@ -1,1 +1,1 @@
-[{"outputType":{"type":"INSTANT_RUN_PACKAGED_RESOURCES"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0.0","enabled":true,"outputFile":"app-debug_-debug.apk","fullName":"debug_Debug","baseName":"debug_-debug"},"path":"debug.ir.ap_","properties":{}}]
+[{"outputType":{"type":"INSTANT_RUN_PACKAGED_RESOURCES"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0.0","enabled":true,"outputFile":"app-debug_-debug.apk","fullName":"debug_Debug","baseName":"debug_-debug"},"path":"debug.ir.ap_","properties":{}}]

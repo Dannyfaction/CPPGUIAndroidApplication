@@ -1,4 +1,4 @@
-Executable : E:\AndroidSDK\cmake\3.6.4111459\bin\cmake.exe
+Executable : E:\AndroidSDK\cmake\3.10.2.4988404\bin\cmake.exe
 arguments : 
 -HE:\Github\CPPGUIAndroidApplication\CPPGUIAndroidApplication\Builds\Android\app
 -BE:\Github\CPPGUIAndroidApplication\CPPGUIAndroidApplication\Builds\Android\app\.externalNativeBuild\cmake\debug_Debug\x86_64
@@ -9,9 +9,14 @@ arguments :
 -DANDROID_NDK=E:\AndroidSDK\ndk-bundle
 -DCMAKE_C_FLAGS=-fsigned-char
 -DCMAKE_CXX_FLAGS=-fsigned-char -std=c++14
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_SYSTEM_VERSION=23
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=E:\AndroidSDK\ndk-bundle
 -DCMAKE_TOOLCHAIN_FILE=E:\AndroidSDK\ndk-bundle\build\cmake\android.toolchain.cmake
--DCMAKE_MAKE_PROGRAM=E:\AndroidSDK\cmake\3.6.4111459\bin\ninja.exe
--GAndroid Gradle - Ninja
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=E:\AndroidSDK\cmake\3.10.2.4988404\bin\ninja.exe
 -DANDROID_TOOLCHAIN=clang
 -DANDROID_PLATFORM=android-23
 -DANDROID_STL=c++_static
