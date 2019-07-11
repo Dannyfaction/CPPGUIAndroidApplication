@@ -30,6 +30,17 @@ add_library( ${BINARY_NAME}
 
     SHARED
 
+    "../../../Source/Question.cpp"
+    "../../../Source/Question.h"
+    "../../../Source/QuestionCategory.h"
+    "../../../Source/QuestionScene.cpp"
+    "../../../Source/QuestionScene.h"
+    "../../../Source/MenuScene.cpp"
+    "../../../Source/MenuScene.h"
+    "../../../Source/UserInterface.cpp"
+    "../../../Source/UserInterface.h"
+    "../../../Source/BackgroundComponent.cpp"
+    "../../../Source/BackgroundComponent.h"
     "../../../Source/MainComponent.h"
     "../../../Source/MainComponent.cpp"
     "../../../Source/Main.cpp"
@@ -1328,6 +1339,12 @@ add_library( ${BINARY_NAME}
     "../../../JuceLibraryCode/JuceHeader.h"
 )
 
+set_source_files_properties("../../../Source/Question.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties("../../../Source/QuestionCategory.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties("../../../Source/QuestionScene.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties("../../../Source/MenuScene.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties("../../../Source/UserInterface.h" PROPERTIES HEADER_FILE_ONLY TRUE)
+set_source_files_properties("../../../Source/BackgroundComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../Source/MainComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../../../../Juce (Projucer) (cpp GUI library)/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../../../../Juce (Projucer) (cpp GUI library)/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.cpp" PROPERTIES HEADER_FILE_ONLY TRUE)

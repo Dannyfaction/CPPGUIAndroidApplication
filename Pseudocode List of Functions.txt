@@ -1,0 +1,10 @@
+ENUM Category
+
+Object Questions with Lists for each Category
+	GetRandomQuestion(ENUM category) = Get's a question from the specified Category (gets called on category selection)
+	NewRandomQuestion(ENUM category) = The same as GetQuestion?
+
+DrawButtons/Text()
+
+MenuScene
+QuestionScene

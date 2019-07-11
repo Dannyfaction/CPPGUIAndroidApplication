@@ -1,0 +1,11 @@
+ENUM Category
+List of questions for each Category
+
+UI with Buttons (each category has 1 button)
+
+When clicked on 1 button
+Disable all buttons/text
+Pick a random question from the category's question list
+Show the question/category on UI
+
+2 Buttons to go back to the main screen or get a new question

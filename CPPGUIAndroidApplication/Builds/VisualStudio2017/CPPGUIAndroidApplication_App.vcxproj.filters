@@ -397,6 +397,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\Question.cpp">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\QuestionScene.cpp">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MenuScene.cpp">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UserInterface.cpp">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BackgroundComponent.cpp">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\MainComponent.cpp">
       <Filter>CPPGUIAndroidApplication\Source</Filter>
     </ClCompile>
@@ -2235,6 +2250,24 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\Question.h">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\QuestionCategory.h">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\QuestionScene.h">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MenuScene.h">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UserInterface.h">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BackgroundComponent.h">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\MainComponent.h">
       <Filter>CPPGUIAndroidApplication\Source</Filter>
     </ClInclude>

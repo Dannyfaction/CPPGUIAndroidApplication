@@ -21,24 +21,66 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../Source/MainComponent.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="476">
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Source/MainComponent.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Source/Main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>window</find>
+      <find>paint</find>
+    </findStrings>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="529" />
-    <option name="y" value="31" />
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../Source/Main.cpp" />
+        <option value="$PROJECT_DIR$/../../Source/AnotherTest.h" />
+        <option value="$PROJECT_DIR$/../../Source/AnotherTest.cpp" />
+        <option value="$PROJECT_DIR$/../../Source/TestTest.cpp" />
+        <option value="$PROJECT_DIR$/../../Source/TestTest.h" />
+        <option value="$PROJECT_DIR$/../../Source/MainComponent.cpp" />
+        <option value="$PROJECT_DIR$/../../Source/MainComponent.h" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="364" />
+    <option name="y" value="-20" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -59,7 +101,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,14 +131,20 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="E:/AndroidSDK" />
     <property name="device.picker.selection" value="NewestPhone" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1562805644227" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\CPPGUIAndroidApplication\CPPGUIAndroidApplication\Source" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -187,12 +234,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="465" y="21" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.39626867" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.28304905" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
@@ -206,7 +253,7 @@
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50074625" side_tool="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49925372" visible="true" weight="0.3298731" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.49925372" visible="true" weight="0.30985916" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -214,5 +261,50 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../Source/Background.h" />
+    <entry file="file://$PROJECT_DIR$/../../Source/Background.cpp" />
+    <entry file="file://$PROJECT_DIR$/../../Source/BackgroundComponent.h" />
+    <entry file="file://$PROJECT_DIR$/../../Source/BackgroundComponent.cpp" />
+    <entry file="file://$PROJECT_DIR$/../../Source/TestComponent.cpp" />
+    <entry file="file://$PROJECT_DIR$/../../Source/TestComponent.h" />
+    <entry file="file://$PROJECT_DIR$/../../Source/AnotherTest.cpp" />
+    <entry file="file://$PROJECT_DIR$/../../Source/AnotherTest.h" />
+    <entry file="file://$PROJECT_DIR$/../../Source/TestTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/TestTest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/MainComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/MainComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

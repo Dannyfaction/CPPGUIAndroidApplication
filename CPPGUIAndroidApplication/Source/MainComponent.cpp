@@ -11,7 +11,8 @@
 //==============================================================================
 MainComponent::MainComponent()
 {
-    setSize (600, 400);
+	//setSize(600, 400);
+	//addAndMakeVisible(backGround);
 }
 
 MainComponent::~MainComponent()
@@ -22,11 +23,14 @@ MainComponent::~MainComponent()
 void MainComponent::paint (Graphics& g)
 {
     // (Our component is opaque, so we must completely fill the background with a solid colour)
-    g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
+    //g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
 
+	g.fillAll(Colours::grey);
     g.setFont (Font (16.0f));
     g.setColour (Colours::white);
     g.drawText ("Hello OI", getLocalBounds(), Justification::centred, true);
+
+
 }
 
 void MainComponent::resized()

@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="dud3k9" name="CPPGUIAndroidApplication" projectType="guiapp"
-              jucerVersion="5.4.3">
+              jucerVersion="5.4.3" compilerFlagSchemes="NewScheme">
   <MAINGROUP id="Hpx9Q4" name="CPPGUIAndroidApplication">
     <GROUP id="{23E141CA-5597-FF7E-5D0D-B281DC10E990}" name="Source">
+      <FILE id="T83b5s" name="Question.cpp" compile="1" resource="0" file="Source/Question.cpp"/>
+      <FILE id="x1fDG4" name="Question.h" compile="0" resource="0" file="Source/Question.h"/>
+      <FILE id="lt2AEb" name="QuestionCategory.h" compile="0" resource="0"
+            file="Source/QuestionCategory.h"/>
+      <FILE id="ogORNe" name="QuestionScene.cpp" compile="1" resource="0"
+            file="Source/QuestionScene.cpp"/>
+      <FILE id="sK6Cby" name="QuestionScene.h" compile="0" resource="0" file="Source/QuestionScene.h"/>
+      <FILE id="DFMYFU" name="MenuScene.cpp" compile="1" resource="0" file="Source/MenuScene.cpp"/>
+      <FILE id="GT7SMz" name="MenuScene.h" compile="0" resource="0" file="Source/MenuScene.h"/>
+      <FILE id="Tcbtfl" name="UserInterface.cpp" compile="1" resource="0"
+            file="Source/UserInterface.cpp"/>
+      <FILE id="dNHVzJ" name="UserInterface.h" compile="0" resource="0" file="Source/UserInterface.h"/>
+      <FILE id="FZBKHl" name="BackgroundComponent.cpp" compile="1" resource="0"
+            file="Source/BackgroundComponent.cpp"/>
+      <FILE id="bOr8a4" name="BackgroundComponent.h" compile="0" resource="0"
+            file="Source/BackgroundComponent.h"/>
       <FILE id="SKbE9T" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="jBJysf" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
