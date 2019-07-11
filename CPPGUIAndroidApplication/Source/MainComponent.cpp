@@ -11,6 +11,7 @@
 //==============================================================================
 MainComponent::MainComponent()
 {
+	Question::getInstance().InitializeQuestions();
 	//setSize(600, 400);
 	//addAndMakeVisible(backGround);
 }

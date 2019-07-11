@@ -39,6 +39,26 @@
       "artifactName": "juce_jni",
       "files": [
         {
+          "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\Question.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\QuestionScene.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\MenuScene.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\UserInterface.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
           "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\BackgroundComponent.cpp",
           "flagsOrdinal": 4,
           "workingDirectoryOrdinal": 0
@@ -2546,6 +2566,26 @@
         {
           "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\JuceLibraryCode\\include_juce_opengl.cpp",
           "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\Question.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\QuestionCategory.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\QuestionScene.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\MenuScene.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\UserInterface.h",
           "workingDirectoryOrdinal": 0
         },
         {

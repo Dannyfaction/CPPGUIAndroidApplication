@@ -1,11 +1,2 @@
-/*
-  ==============================================================================
-
-    QuestionCategory.h
-    Created: 12 Jul 2019 12:40:31am
-    Author:  Danny Kruiswijk
-
-  ==============================================================================
-*/
-
 #pragma once
+enum class QuestionCategory { personalLife, history, friends, fun };
