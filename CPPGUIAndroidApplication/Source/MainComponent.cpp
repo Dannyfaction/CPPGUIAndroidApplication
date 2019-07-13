@@ -27,9 +27,9 @@ void MainComponent::paint (Graphics& g)
     //g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
 
 	g.fillAll(Colours::grey);
-    g.setFont (Font (16.0f));
+    g.setFont (Font (24.0f));
     g.setColour (Colours::white);
-    g.drawText ("Hello OI", getLocalBounds(), Justification::centred, true);
+    g.drawText ("So... android app", getLocalBounds(), Justification::centred, true);
 
 
 }

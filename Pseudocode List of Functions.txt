@@ -1,10 +1,24 @@
-ENUM Category
+Class ENUM Category
 
-Object Questions with Lists for each Category
+Class (Singleton) Questions with Lists for each Category
 	GetRandomQuestion(ENUM category) = Get's a question from the specified Category (gets called on category selection)
 	NewRandomQuestion(ENUM category) = The same as GetQuestion?
 
-DrawButtons/Text()
+MainComponent
+	OnSpawnedObject(){ addAndMakeVisible}
+
+UserInterface (Singleton)
+	SpawnAllObjects()
+	ToggleScene(){//sends MainComponent event to Add/remove specific components}
+
 
 MenuScene
+	paint(){ Buttons / Text }
+	OnButtonClicked(){ Userinterface.ToggleScene, GetRandomQuestion(category) }
+
+
 QuestionScene
+	paint(){ Buttons / Text }
+
+TouchInputHandler
+	
