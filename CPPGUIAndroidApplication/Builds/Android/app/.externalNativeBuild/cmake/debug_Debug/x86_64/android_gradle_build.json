@@ -24,6 +24,10 @@
       "artifactName": "juce_jni",
       "files": [
         {
+          "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\CategoryButton.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
           "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\Question.h",
           "workingDirectoryOrdinal": 0
         },
@@ -2781,6 +2785,11 @@
         },
         {
           "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\JuceLibraryCode\\JuceHeader.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\Github\\CPPGUIAndroidApplication\\CPPGUIAndroidApplication\\Builds\\Android\\app\\..\\..\\..\\Source\\CategoryButton.cpp",
+          "flagsOrdinal": 3,
           "workingDirectoryOrdinal": 0
         },
         {

@@ -1,11 +1,18 @@
-/*
-  ==============================================================================
-
-    MenuScene.h
-    Created: 12 Jul 2019 12:39:50am
-    Author:  Danny Kruiswijk
-
-  ==============================================================================
-*/
-
 #pragma once
+#include <vector>
+#include "../JuceLibraryCode/JuceHeader.h"
+#include "CategoryButton.h"
+#include "QuestionCategory.h"
+
+class MenuScene : public Component, public Button::Listener {
+public:
+	MenuScene();
+	~MenuScene();
+
+	void paint(Graphics&) override;
+	void buttonClicked(Button* button) override;
+
+private:
+
+	std::vector<CategoryButton*> categoryButtons;
+};

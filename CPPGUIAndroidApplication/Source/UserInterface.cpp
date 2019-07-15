@@ -1,11 +1,9 @@
-/*
-  ==============================================================================
-
-    UserInterface.cpp
-    Created: 12 Jul 2019 12:39:33am
-    Author:  Danny Kruiswijk
-
-  ==============================================================================
-*/
-
 #include "UserInterface.h"
+
+void UserInterface::SpawnComponent(Component component)
+{
+	//MenuScene
+
+
+	//QuestionScene
+}

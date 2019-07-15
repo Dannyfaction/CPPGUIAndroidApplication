@@ -138,6 +138,7 @@
     <Lib/>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\CategoryButton.cpp"/>
     <ClCompile Include="..\..\Source\Question.cpp"/>
     <ClCompile Include="..\..\Source\QuestionScene.cpp"/>
     <ClCompile Include="..\..\Source\MenuScene.cpp"/>
@@ -1851,6 +1852,7 @@
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_opengl.cpp"/>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\CategoryButton.h"/>
     <ClInclude Include="..\..\Source\Question.h"/>
     <ClInclude Include="..\..\Source\QuestionCategory.h"/>
     <ClInclude Include="..\..\Source\QuestionScene.h"/>

@@ -10,7 +10,7 @@ void Question::InitializeQuestions()
 	questionsHistory.push_back("What is your favorite era and why?");
 
 	//Friends Questions
-	questionsFriends.push_back("");
+	questionsFriends.push_back("Would you rather have more friends or closer friends?");
 
 	//Fun Questions
 	questionsFun.push_back("What is your best drunk story?");

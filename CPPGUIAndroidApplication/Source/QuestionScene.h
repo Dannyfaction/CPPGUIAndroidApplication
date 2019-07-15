@@ -1,11 +1,10 @@
-/*
-  ==============================================================================
-
-    QuestionScene.h
-    Created: 12 Jul 2019 12:40:02am
-    Author:  Danny Kruiswijk
-
-  ==============================================================================
-*/
-
 #pragma once
+#include "../JuceLibraryCode/JuceHeader.h"
+
+class QuestionScene : public Component {
+public:
+	QuestionScene();
+	~QuestionScene();
+
+	void paint(Graphics&) override;
+};

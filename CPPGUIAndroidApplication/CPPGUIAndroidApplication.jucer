@@ -4,6 +4,10 @@
               jucerVersion="5.4.3" compilerFlagSchemes="NewScheme">
   <MAINGROUP id="Hpx9Q4" name="CPPGUIAndroidApplication">
     <GROUP id="{23E141CA-5597-FF7E-5D0D-B281DC10E990}" name="Source">
+      <FILE id="LLvX7v" name="CategoryButton.cpp" compile="1" resource="0"
+            file="Source/CategoryButton.cpp"/>
+      <FILE id="A4Lt75" name="CategoryButton.h" compile="0" resource="0"
+            file="Source/CategoryButton.h"/>
       <FILE id="T83b5s" name="Question.cpp" compile="1" resource="0" file="Source/Question.cpp"/>
       <FILE id="x1fDG4" name="Question.h" compile="0" resource="0" file="Source/Question.h"/>
       <FILE id="lt2AEb" name="QuestionCategory.h" compile="0" resource="0"
@@ -83,7 +87,7 @@
     <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
   <LIVE_SETTINGS>
-    <WINDOWS buildEnabled="1"/>
+    <WINDOWS buildEnabled="0"/>
   </LIVE_SETTINGS>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
 </JUCERPROJECT>

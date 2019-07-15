@@ -1,19 +1,16 @@
-/*
-  ==============================================================================
-
-    This file was auto-generated!
-
-  ==============================================================================
-*/
-
 #include "MainComponent.h"
 
 //==============================================================================
 MainComponent::MainComponent()
 {
 	Question::getInstance().InitializeQuestions();
-	//setSize(600, 400);
+	addAndMakeVisible(menuScene);
+	//UserInterface::getInstance().SpawnComponent(menuScene);
+	setSize(400, 550);
 	//addAndMakeVisible(backGround);
+	//addAndMakeVisible(testButton);
+	//testButton.setButtonText("test");
+	//testButton.setBounds(10, 10, getWidth() - 20, 40);
 }
 
 MainComponent::~MainComponent()
@@ -27,9 +24,9 @@ void MainComponent::paint (Graphics& g)
     //g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
 
 	g.fillAll(Colours::grey);
-    g.setFont (Font (24.0f));
-    g.setColour (Colours::white);
-    g.drawText ("So... android app", getLocalBounds(), Justification::centred, true);
+    //g.setFont (Font (24.0f));
+    //g.setColour (Colours::white);
+    //g.drawText ("So... android app", getLocalBounds(), Justification::centred, true);
 
 
 }

@@ -30,6 +30,8 @@ add_library( ${BINARY_NAME}
 
     SHARED
 
+    "../../../Source/CategoryButton.cpp"
+    "../../../Source/CategoryButton.h"
     "../../../Source/Question.cpp"
     "../../../Source/Question.h"
     "../../../Source/QuestionCategory.h"
@@ -1339,6 +1341,7 @@ add_library( ${BINARY_NAME}
     "../../../JuceLibraryCode/JuceHeader.h"
 )
 
+set_source_files_properties("../../../Source/CategoryButton.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../Source/Question.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../Source/QuestionCategory.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties("../../../Source/QuestionScene.h" PROPERTIES HEADER_FILE_ONLY TRUE)

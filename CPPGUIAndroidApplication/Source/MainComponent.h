@@ -10,6 +10,9 @@
 
 #include "../JuceLibraryCode/JuceHeader.h"
 #include "Question.h"
+#include "UserInterface.h"
+#include "MenuScene.h"
+#include "QuestionScene.h"
 
 //==============================================================================
 /*
@@ -31,6 +34,11 @@ public:
 private:
     //==============================================================================
     // Your private member variables go here...
+
+	MenuScene menuScene;
+	QuestionScene questionScene;
+
+	//TextButton testButton;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };

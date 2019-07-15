@@ -1,11 +1,16 @@
-/*
-  ==============================================================================
-
-    QuestionScene.cpp
-    Created: 12 Jul 2019 12:40:02am
-    Author:  Danny Kruiswijk
-
-  ==============================================================================
-*/
-
 #include "QuestionScene.h"
+
+QuestionScene::QuestionScene()
+{
+	//setCentrePosition();
+	setSize(1000, 1000);
+}
+
+QuestionScene::~QuestionScene()
+{
+}
+
+void QuestionScene::paint(Graphics& g)
+{
+	g.fillAll(Colours::black);
+}
