@@ -54,3 +54,10 @@
 3539	5828	584931305	../../../../build/intermediates/cmake/debug_/debug/obj/x86/libjuce_jni.so	b52438cd483c00f4
 28	3399	584931346	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Source/MenuScene.cpp.o	90b5ba1082930018
 3399	5335	584931348	../../../../build/intermediates/cmake/debug_/debug/obj/x86/libjuce_jni.so	b52438cd483c00f4
+106	5212	586289391	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Source/Question.cpp.o	79113d064228f4b7
+1436	12142	586289398	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Source/BackgroundComponent.cpp.o	e5b41bf4f83f1af
+1449	12156	586289398	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Source/Main.cpp.o	a1baebdaf7c99feb
+1428	12172	586289398	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Source/CategoryButton.cpp.o	6d8265dbf82cc0ff
+1413	12210	586289398	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Source/MenuScene.cpp.o	90b5ba1082930018
+1442	12256	586289398	CMakeFiles/juce_jni.dir/E_/Github/CPPGUIAndroidApplication/CPPGUIAndroidApplication/Source/MainComponent.cpp.o	3caab6cadb1b76e5
+12256	17746	586289404	../../../../build/intermediates/cmake/debug_/debug/obj/x86/libjuce_jni.so	b52438cd483c00f4
