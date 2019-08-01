@@ -397,6 +397,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\SceneManager.cpp">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\CategoryButton.cpp">
       <Filter>CPPGUIAndroidApplication\Source</Filter>
     </ClCompile>
@@ -2253,6 +2256,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\SceneManager.h">
+      <Filter>CPPGUIAndroidApplication\Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\CategoryButton.h">
       <Filter>CPPGUIAndroidApplication\Source</Filter>
     </ClInclude>

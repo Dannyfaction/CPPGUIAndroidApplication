@@ -3,7 +3,10 @@
 #include "../JuceLibraryCode/JuceHeader.h"
 #include "CategoryButton.h"
 #include "QuestionCategory.h"
+#include "UserInterface.h"
+//#include "SceneManager.h"
 
+class SceneManager;
 class MenuScene : public Component, public Button::Listener {
 public:
 	MenuScene();
@@ -12,7 +15,13 @@ public:
 	void paint(Graphics&) override;
 	void buttonClicked(Button* button) override;
 
+	void SetParent(SceneManager &parent) { parentPointer = &parent; }
+
 private:
 
+	SceneManager* parentPointer = 0;
+
 	std::vector<CategoryButton*> categoryButtons;
+
+	Label titleLabel;
 };

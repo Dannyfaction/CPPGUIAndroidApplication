@@ -11,6 +11,8 @@ public:
 
 	void SpawnComponent(Component component);
 
+	void ToggleScene();
+
 private:
 	UserInterface() {}
 

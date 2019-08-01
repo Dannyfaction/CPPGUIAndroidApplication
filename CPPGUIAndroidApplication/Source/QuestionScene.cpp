@@ -3,7 +3,7 @@
 QuestionScene::QuestionScene()
 {
 	//setCentrePosition();
-	setSize(1000, 1000);
+	setSize(400, 550);
 }
 
 QuestionScene::~QuestionScene()
@@ -12,5 +12,5 @@ QuestionScene::~QuestionScene()
 
 void QuestionScene::paint(Graphics& g)
 {
-	g.fillAll(Colours::black);
+	//g.fillAll(Colours::black);
 }

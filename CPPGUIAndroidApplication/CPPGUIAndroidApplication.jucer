@@ -4,6 +4,9 @@
               jucerVersion="5.4.3" compilerFlagSchemes="NewScheme">
   <MAINGROUP id="Hpx9Q4" name="CPPGUIAndroidApplication">
     <GROUP id="{23E141CA-5597-FF7E-5D0D-B281DC10E990}" name="Source">
+      <FILE id="wUG3Hm" name="SceneManager.cpp" compile="1" resource="0"
+            file="Source/SceneManager.cpp"/>
+      <FILE id="pJ5xHy" name="SceneManager.h" compile="0" resource="0" file="Source/SceneManager.h"/>
       <FILE id="LLvX7v" name="CategoryButton.cpp" compile="1" resource="0"
             file="Source/CategoryButton.cpp"/>
       <FILE id="A4Lt75" name="CategoryButton.h" compile="0" resource="0"

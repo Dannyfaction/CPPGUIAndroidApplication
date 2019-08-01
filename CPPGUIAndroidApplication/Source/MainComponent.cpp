@@ -4,11 +4,14 @@
 MainComponent::MainComponent()
 {
 	Question::getInstance().InitializeQuestions();
-	addAndMakeVisible(menuScene);
-	//UserInterface::getInstance().SpawnComponent(menuScene);
+	addAndMakeVisible(sceneManager);
+
+	//addChildComponent(menuScene);
+	//addChildComponent(questionScene);
+	//menuScene.setVisible(true);
 	setSize(400, 550);
-	//addAndMakeVisible(backGround);
-	//addAndMakeVisible(testButton);
+
+	//UserInterface::getInstance().SpawnComponent(menuScene);
 	//testButton.setButtonText("test");
 	//testButton.setBounds(10, 10, getWidth() - 20, 40);
 }
@@ -37,3 +40,10 @@ void MainComponent::resized()
     // If you add any child components, this is where you should
     // update their positions.
 }
+
+/*
+void MainComponent::ToggleScene()
+{
+	menuScene.setVisible(!menuScene.isVisible);
+	questionScene.setVisible(!questionScene.isVisible);
+}*/
