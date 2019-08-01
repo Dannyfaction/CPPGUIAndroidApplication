@@ -1,4 +1,5 @@
 #pragma once
+#include "../JuceLibraryCode/JuceHeader.h"
 #include <vector>
 #include <string>
 #include "QuestionCategory.h"
@@ -12,7 +13,10 @@ public:
 	}
 
 	void InitializeQuestions();
-	void GetRandomQuestion(QuestionCategory category);
+	void SetRandomQuestion(QuestionCategory category);
+	String GetCurrentQuestion() { return currentQuestion; }
+	String GetCurrentCategory() { return currentCategory; }
+	String CategoryToText(QuestionCategory category);
 
 private:
 	Question() {}
@@ -25,4 +29,7 @@ private:
 	std::vector<std::string> questionsHistory;
 	std::vector<std::string> questionsFriends;
 	std::vector<std::string> questionsFun;
+
+	String currentQuestion = "-Question-";
+	String currentCategory = "-Question Category-";
 };

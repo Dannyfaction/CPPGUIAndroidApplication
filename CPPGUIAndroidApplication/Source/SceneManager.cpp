@@ -6,8 +6,10 @@ SceneManager::SceneManager()
 
 	addChildComponent(menuScene);
 	menuScene.SetParent(*this);
-	addChildComponent(questionScene);
 	menuScene.setVisible(true);
+
+	addChildComponent(questionScene);
+	questionScene.SetParent(*this);
 
 	setSize(400, 550);
 }
@@ -28,4 +30,8 @@ void SceneManager::ToggleScene()
 {
 	menuScene.setVisible(!menuScene.isVisible());
 	questionScene.setVisible(!questionScene.isVisible());
+
+	if (questionScene.isVisible()) {
+		questionScene.OnSceneChange();
+	}
 }

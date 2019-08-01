@@ -1,5 +1,5 @@
 #include "CategoryButton.h"
-
+#include "Question.h"
 
 
 CategoryButton::CategoryButton()
@@ -19,26 +19,9 @@ CategoryButton::~CategoryButton()
 {
 }
 
-String CategoryButton::CategoryToText(QuestionCategory category)
+void CategoryButton::SetCategory(QuestionCategory category)
 {
-	String text;
-	switch (category)
-	{
-	case QuestionCategory::personalLife:
-		text = "Personal Life";
-		break;
-	case QuestionCategory::history:
-		text = "History";
-		break;
-	case QuestionCategory::friends:
-		text = "Friends";
-		break;
-	case QuestionCategory::fun:
-		text = "Fun";
-		break;
-	default:
-		text = "Error in function";
-		break;
-	}
-	return text;
+	this->category = category;
+	setName(Question::getInstance().CategoryToText(category));
+	setButtonText(getName());
 }

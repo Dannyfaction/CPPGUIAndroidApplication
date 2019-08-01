@@ -41,31 +41,22 @@ MenuScene::~MenuScene()
 
 void MenuScene::paint(Graphics& g)
 {
-	//g.fillAll(Colours::white);
 
-	/*
-	Rectangle<float> rectangle(20.0f, 350.0f, 140.0f, 80.0f);
-
-	g.setColour(Colours::white);
-	g.fillRect(rectangle);
-
-	g.setFont(Font(20.0f));
-	g.setColour(Colours::black);
-	
-	//setintercep
-
-
-	g.drawText("Personal Life", rectangle, Justification::centred, false);
-	*/
-	//centreWithSize(0,0);
 }
 
 void MenuScene::buttonClicked(Button * button)
 {
-	//Toggle Scene
-	//UserInterface::getInstance().ToggleScene();
-	parentPointer->ToggleScene();
 	//GetRandomQuestion?
+	for (int i = 0; i < static_cast<int>(QuestionCategory::COUNT); i++)
+	{
+		if (button == categoryButtons[i]) {
+			Question::getInstance().SetRandomQuestion(QuestionCategory::fun);
+			//categoryButtons[i]->setVisible(false);
+		}
+	}
+	//Toggle Scene
+	parentPointer->ToggleScene();
+
 
 	/*for (int i = 0; i < static_cast<int>(QuestionCategory::COUNT); i++)
 	{

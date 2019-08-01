@@ -3,8 +3,8 @@
 #include "../JuceLibraryCode/JuceHeader.h"
 #include "CategoryButton.h"
 #include "QuestionCategory.h"
+#include "Question.h"
 #include "UserInterface.h"
-//#include "SceneManager.h"
 
 class SceneManager;
 class MenuScene : public Component, public Button::Listener {
