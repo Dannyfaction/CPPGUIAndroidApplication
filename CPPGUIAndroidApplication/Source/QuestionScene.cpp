@@ -17,7 +17,7 @@ QuestionScene::QuestionScene()
 	questionCategoryLabel.setFont(Font(30.0f, Font::bold));
 	questionCategoryLabel.setColour(Label::textColourId, Colours::white);
 	questionCategoryLabel.setJustificationType(Justification::centred);
-	questionCategoryLabel.setBounds(r.getWidth() * 0.5f - labelWidth * 0.5f, r.getHeight() * 0.075f - labelHeight * 0.5f, labelWidth, labelHeight);
+	questionCategoryLabel.setBounds((r.getWidth() * 0.5f) - (labelWidth * 0.5f), (r.getHeight() * 0.075f) - (labelHeight * 0.5f), labelWidth, labelHeight);
 
 	//Question Label
 	addAndMakeVisible(questionLabel);
@@ -27,7 +27,7 @@ QuestionScene::QuestionScene()
 	questionLabel.setFont(Font(30.0f, Font::bold));
 	questionLabel.setColour(Label::textColourId, Colours::white);
 	questionLabel.setJustificationType(Justification::centred);
-	questionLabel.setBounds(r.getWidth() * 0.5f - labelWidth * 0.5f, r.getHeight() * 0.25f - labelHeight * 0.5f, labelWidth, labelHeight);
+	questionLabel.setBounds((r.getWidth() * 0.5f) - (labelWidth * 0.5f), (r.getHeight() * 0.3f) - (labelHeight * 0.5f), labelWidth, labelHeight);
 
 	float buttonWidth = r.getWidth() * 0.40f;
 	float buttonHeight = r.getHeight() * 0.125f;
@@ -36,7 +36,7 @@ QuestionScene::QuestionScene()
 	addAndMakeVisible(backButton);
 	backButton.addListener(this);
 	backButton.setButtonText("Back to categories");
-	backButton.setBounds(r.getWidth() * 0.25f - buttonWidth / 2, buttonHeight * 5.0f, buttonWidth, buttonHeight);
+	backButton.setBounds((r.getWidth() * 0.25f) - (buttonWidth / 2), (buttonHeight * 5.0f), buttonWidth, buttonHeight);
 	backButton.setColour(TextButton::buttonColourId, Colours::lightgrey);
 	backButton.setColour(TextButton::textColourOnId, Colours::black);
 	backButton.setColour(TextButton::textColourOffId, Colours::black);
@@ -45,7 +45,7 @@ QuestionScene::QuestionScene()
 	addAndMakeVisible(nextButton);
 	nextButton.addListener(this);
 	nextButton.setButtonText("Different question");
-	nextButton.setBounds(r.getWidth() * 0.75f - buttonWidth / 2, buttonHeight * 5.0f, buttonWidth, buttonHeight);
+	nextButton.setBounds((r.getWidth() * 0.75f) - (buttonWidth / 2), (buttonHeight * 5.0f), buttonWidth, buttonHeight);
 	nextButton.setColour(TextButton::buttonColourId, Colours::lightgrey);
 	nextButton.setColour(TextButton::textColourOnId, Colours::black);
 	nextButton.setColour(TextButton::textColourOffId, Colours::black);
@@ -72,7 +72,8 @@ void QuestionScene::buttonClicked(Button * button)
 
 	//Different Question
 	if (button->getButtonText() == "Different question") {
-
+		Question::getInstance().SetRandomQuestion(Question::getInstance().GetCurrentCategory());
+		OnSceneChange();
 	}
 	//UserInterface::getInstance().ToggleScene();
 	//parentPointer->ToggleScene();
@@ -100,6 +101,6 @@ void QuestionScene::buttonClicked(Button * button)
 
 void QuestionScene::OnSceneChange()
 {
-	questionCategoryLabel.setText(Question::getInstance().GetCurrentCategory(), dontSendNotification);
+	questionCategoryLabel.setText(Question::getInstance().CategoryToText(Question::getInstance().GetCurrentCategory()), dontSendNotification);
 	questionLabel.setText(Question::getInstance().GetCurrentQuestion(), dontSendNotification);
 }

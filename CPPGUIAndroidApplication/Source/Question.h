@@ -2,6 +2,7 @@
 #include "../JuceLibraryCode/JuceHeader.h"
 #include <vector>
 #include <string>
+#include <ctime>
 #include "QuestionCategory.h"
 
 class Question {
@@ -15,8 +16,9 @@ public:
 	void InitializeQuestions();
 	void SetRandomQuestion(QuestionCategory category);
 	String GetCurrentQuestion() { return currentQuestion; }
-	String GetCurrentCategory() { return currentCategory; }
+	QuestionCategory GetCurrentCategory() { return currentCategory; }
 	String CategoryToText(QuestionCategory category);
+	QuestionCategory TextToCategory(String text);
 
 private:
 	Question() {}
@@ -27,9 +29,9 @@ private:
 private:
 	std::vector<std::string> questionsPersonalLife;
 	std::vector<std::string> questionsHistory;
-	std::vector<std::string> questionsFriends;
+	std::vector<std::string> questionsRomantic;
 	std::vector<std::string> questionsFun;
 
 	String currentQuestion = "-Question-";
-	String currentCategory = "-Question Category-";
+	QuestionCategory currentCategory;
 };

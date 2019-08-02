@@ -50,7 +50,8 @@ void MenuScene::buttonClicked(Button * button)
 	for (int i = 0; i < static_cast<int>(QuestionCategory::COUNT); i++)
 	{
 		if (button == categoryButtons[i]) {
-			Question::getInstance().SetRandomQuestion(QuestionCategory::fun);
+			Question::getInstance().SetRandomQuestion(Question::getInstance().TextToCategory(button->getButtonText()));
+			//Question::getInstance().SetRandomQuestion(QuestionCategory::fun);
 			//categoryButtons[i]->setVisible(false);
 		}
 	}
